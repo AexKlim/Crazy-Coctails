@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4745990732084640}
   - component: {fileID: 114731886290655340}
   m_Layer: 0
-  m_Name: NewOurCocktail
+  m_Name: PouringCocktail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
