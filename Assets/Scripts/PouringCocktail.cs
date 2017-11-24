@@ -45,7 +45,7 @@ public class PouringCocktail : MonoBehaviour {
 						ingredients [currentIngredientNumber].amount = liquid.transform.localScale.y;
 
 						gameManger.StartCoroutine ("CalculateSimilarity");
-						gameManger.Invoke ("StartNewRound", 2f);
+						//gameManger.Invoke ("StartNewRound", 2f);
 						similarityCalculated = true;
 						roundOver = true;
 					}	
@@ -60,7 +60,7 @@ public class PouringCocktail : MonoBehaviour {
 		} else {
 			if (!similarityCalculated) {
 				gameManger.StartCoroutine ("CalculateSimilarity");
-				gameManger.Invoke("StartNewRound", 2f);
+				//gameManger.Invoke("StartNewRound", 2f);
 				similarityCalculated = true;
 				roundOver = true;
 			}
